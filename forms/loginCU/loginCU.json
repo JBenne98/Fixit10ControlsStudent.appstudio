@@ -43,15 +43,6 @@
         "forms",
         "loginCU",
         "Elements",
-        "lblResponse.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "loginCU",
-        "Elements",
         "iptPassword.json"
       ]
     }

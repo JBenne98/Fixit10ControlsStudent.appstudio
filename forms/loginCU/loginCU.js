@@ -1,5 +1,5 @@
-req=''
 
+let req=''
 
 btnFav.onclick=function(){
   ChangeForm(favFoods)
@@ -10,8 +10,9 @@ btnLog.onclick=function(){
 
 if (req.status==200) { //everything worked.
     lblResponse.hidden=false
-    lblResponse.value="Your LDAP return code was " + req.responseText
+    lblResponse.value=(`Your LDAP return code was ${req.responseText}`)
     //1 good 0 bad
+    NSB.MsgBox(lblResponse.value)
       if(req.responseText==1){
         ChangeForm(favFoods)
     } else {
@@ -21,7 +22,6 @@ if (req.status==200) { //everything worked.
     //had a problem with the AJAX request.
     lblResponse.hidden=false;
     lblResponse.value="Error: " + req.status;
-}
-
-
+    NSB.MsgBox(lblResponse.value)
+  }
 }

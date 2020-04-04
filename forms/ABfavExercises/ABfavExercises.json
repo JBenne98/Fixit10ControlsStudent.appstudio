@@ -14,9 +14,36 @@
       "!type": "External",
       "file": [
         "forms",
-        "favExercises",
+        "ABfavExercises",
         "Elements",
-        "selExercises.json"
+        "slcExercises.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ABfavExercises",
+        "Elements",
+        "btnMobileNav.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ABfavExercises",
+        "Elements",
+        "btnEnter.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ABfavExercises",
+        "Elements",
+        "mdlExe.json"
       ]
     }
   ],
@@ -26,7 +53,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "favExercises",
+  "id": "ABfavExercises",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -34,7 +61,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "favExercises.onshow()",
+  "onshow": "ABfavExercises.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",

@@ -53,8 +53,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "favExercises",
-            "favExercises.json"
+            "ABfavExercises",
+            "ABfavExercises.json"
           ]
         },
         {
@@ -84,7 +84,7 @@
       "exetitle": "",
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "loginCU",
+      "firstform": "mobileNav",
       "fontFamily": "system",
       "height": "",
       "homescreenTitle": "",
